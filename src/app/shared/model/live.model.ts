@@ -1,7 +1,7 @@
 import { SafeResourceUrl } from "@angular/platform-browser";
 
 export class Live {
-    id!: string;
+    id!: string | any;
     liveName!: string;
     channelName!: string;
     liveDate!: string;
